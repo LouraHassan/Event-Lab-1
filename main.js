@@ -34,10 +34,10 @@ btn5.addEventListener('click', () => {
 let count = 0;
 btn6.addEventListener('click', () => {
     if (count == 0) {
-        document.body.style.backgroundImage="url('https://images.pexels.com/photos/8462116/pexels-photo-8462116.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')"
+        document.body.style.backgroundImage="url('https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=600')"
 
     } else {
-        document.body.style.backgroundImage="url('https://images.pexels.com/photos/20821498/pexels-photo-20821498/free-photo-of-a-cake-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"
+        document.body.style.backgroundImage="url('https://images.pexels.com/photos/776656/pexels-photo-776656.jpeg?auto=compress&cs=tinysrgb&w=600')"
  
     }
     return count++

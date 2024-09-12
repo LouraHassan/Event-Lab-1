@@ -10,4 +10,10 @@ button{
 h3{
     color: blue;
     font-weight: bold;
+    display: inline;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
 }
