@@ -31,6 +31,14 @@ btn5.addEventListener('click', () => {
     texttitle.style.backgroundColor = 'rgb(197, 222, 239)'
 })
 
+let count = 0;
 btn6.addEventListener('click', () => {
-    document.body.style.backgroundImage="url('https://images.pexels.com/photos/8462116/pexels-photo-8462116.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')"
+    if (count == 0) {
+        document.body.style.backgroundImage="url('https://images.pexels.com/photos/8462116/pexels-photo-8462116.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')"
+
+    } else {
+        document.body.style.backgroundImage="url('https://images.pexels.com/photos/20821498/pexels-photo-20821498/free-photo-of-a-cake-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"
+ 
+    }
+    return count++
 })
